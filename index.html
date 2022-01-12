@@ -7,46 +7,85 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <title>Sapien Investor - Página inicial</title>
 
-    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <title>Sapien Investor - Página inicial</title>
+  
   </head>
   <body>
      
                     <!-- cabeçalho -->
-      <nav  class=" nav navbar bg-dark  navbar-expand-md navbar-dark ">
+    <nav  class=" nav navbar bg-dark  navbar-expand-md navbar-dark ">
 
                      <!-- Logo -->
-        <a class="navbar-brand" href="index.html">
-         <span class="text-danger h1 ">Sapien</span>
-         <span class="text-secondary h2">Investor</span>
-        </a>
+      <a class="navbar-brand" href="index.html">
+      <span class="text-danger h1 ">Sapien</span>
+      <span class="text-success h2">Investor</span>
+      </a>
 
                    <!-- formulário -->
         
 
                    <!-- Navegação topo -->
-        <button  class="navbar-toggler btn-secondary" data-toggle="collapse" data-target="#navTopo">
-          <span class="navbar-toggler-icon"> </span>
-        </button>
+      <button  class="navbar-toggler btn-success" data-toggle="collapse" data-target="#navTopo">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navTopo">
+      <div class="collapse navbar-collapse" id="navTopo">
 
-          <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="navbar-item mr-4">
-            <a class="navbar-link h5 text-secondary" href="">AÇÕES</a>
+            <a class="navbar-link h5 text-success" href="">AÇÕES</a>
           </li>
           <li class="navbar-item mr-4">
-            <a class="navbar-link h5 text-secondary" href="">FIIs</a>
+            <a class="navbar-link h5 text-success" href="">FIIs</a>
           </li>
-          <li class="navbar-item mr-4">
-            <a class="navbar-link h5 text-secondary" href="">BDRs</a>
-        </li>
-      </ul>
-        </div>            
+          <li class="navbar-item mr-5">
+            <a class="navbar-link h5 text-success" href="">BDRs</a>
+          </li>
+        </ul>
+      </div>            
         
 
-     </nav>
+    </nav>
+
+     <!-- Carrossel -->
+
+    <div id="carrosel" class="carousel slide" data-riggle="carousel">
+       
+    <ol class="carousel-indicators">
+      <li data-target="#carrosel" data-slide-to="0" class="active"></li>
+      <li data-target="#carrosel" data-slide-to="1"></li>
+      <li data-target="#carrosel" data-slide-to="2"></li>
+    </ol>
+
+    <div style="height: ;"  class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/grafico.jpg" class="img-fluid">
+        <div class="carousel-caption">
+         
+            <h3>titulo</h3>
+            <p>texto, botão,etc</p>
+    
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img src="img/btc.jpg" class="img-fluid">
+      </div>
+      <div class="carousel-item">
+         <img src="img/mundo.jpg" class="img-fluid">
+      </div>
+
+       <a href="#carrosel" class="carousel-control-prev" data-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+       </a>
+       <a href="#carrosel" class="carousel-control-next" data-slide="next">
+         <span class="carousel-control-next-icon"></span>
+       </a>
+     </div>
+  </div>
 
 
     <div class="container">
@@ -82,6 +121,11 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
   </body>
 </html>
 

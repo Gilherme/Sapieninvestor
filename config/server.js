@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const { body, validationResult } = require('express-validator');
 
 
-const app = express();
+let app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', './app/views');
@@ -14,7 +14,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 consign()
   .include('app/routes')
-  .then('app/controlls')
-  .into(app)
+  .then('app/models')
+  .then('app/controllers')
+  .into(app);
 
 module.exports = app;

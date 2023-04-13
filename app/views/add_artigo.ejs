@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Adicionar Artigo</title>
+</head>
+<body>
+  <header>
+    <h1>Adicionar artigo</h1>
+  </header>
+  <section>
+    <form id="adicionarArtigo" action="/adicionarArtigo" method="post">
+      <div>
+        <label for="titulo">Titulo</label><br>
+        <input type="text" id="titulo" name="titulo">
+      </div>
+      <div>
+        <label for="resumo">Resumo</label><br>
+        <textarea name="resumo" id="resumo" cols="90" rows="4"></textarea>
+      </div>
+      <div>
+        <label for="texto">Texto</label><br>
+        <textarea name="texto" id="texto" cols="100" rows="30"></textarea>
+      </div>
+      <div>
+        <button id="enviar" type="submit">Publicar</button>
+      </div>
+    </form>
+  </section>
+</body>
+</html>

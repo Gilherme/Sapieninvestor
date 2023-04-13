@@ -44,7 +44,6 @@ header{
 .destaque{
   grid-column: 1 /2 ;
   grid-row: 1 / 4;
-  border-right: 1px solid #0009;
   display: flex;
   justify-content: center;
 }
@@ -58,10 +57,10 @@ header{
   grid-column: 1 / 2;
 }
 .segunda{
+  margin-top: 5px;
   padding: 5px;
   grid-column: 2/ 3;
   grid-row: 1 / 2;
-  border-bottom: 1px solid black;
   display: grid;
   grid-template-columns: 30% 68%; 
 }
@@ -69,7 +68,6 @@ header{
   padding: 5px;
   grid-column: 2/ 3;
   grid-row: 2 / 3;
-  border-bottom: 1px solid black;
   display: grid;
   grid-template-columns: 30% 68%; 
 }
@@ -83,7 +81,6 @@ header{
 
 .texto-lateral{
   grid-column: 2/ 3;
-  width: 300px;
 }
 
 

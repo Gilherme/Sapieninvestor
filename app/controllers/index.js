@@ -1,4 +1,4 @@
-module.exports.index = (app, req, res) => {
+// module.exports.index = (app, req, res) => {
 
-  res.render('index')
-}
+  
+// }
